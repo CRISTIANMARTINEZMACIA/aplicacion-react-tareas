@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'yarn --version'
+                sh 'npm --version'
             }
         }
     }
